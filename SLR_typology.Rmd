@@ -6,13 +6,19 @@ output:
     fig_caption: true
     latex_engine: xelatex
     template: LATEX/svm-latex-ms.tex
-title: "A new conceptual typology for the population impacts of sea level rise"
+title: "A conceptual typology for the population impacts of sea level rise"
 thanks: "All data and code that supports these conclusions are available as supplementary materials."
 author:
-- name: Mathew E. Hauer^1^*
-  affiliation: University of Georgia
-- name: R. Dean Hardy^2^
+- name: Mathew E. Hauer*
+  affiliation: Florida State University
+- name: R. Dean Hardy
   affiliation: University of Maryland
+- name: Scott Kulp
+  affiliation: Climate Central
+- name: Robert Kopp
+  affiliation: Rutgers University
+- name: Michael Oppenheimer
+  affiliation: Princeton University    
   
 abstract: "This paper provides a conceptual framework for assessments of the impacts of sea level rise on populations. Population impact assessments of sea level rise are common in the literature and such assessments directly influence our understanding of the societal effects of climate change and sea level rise. However, these assessments typically limit population exposure to inundation areas only. Drawing on increasingly sophisticated flood modeling, we propose a new typology for understanding population exposure risk to sea level rise based on a spatial envelope probability of exposure to tidal flooding approach. The typology identifies three types of exposure risk: direct, indirect, and tertiary. Implications and effects of sea level rise on each exposure risk typology is then discussed. Using Chatham County, Georgia as an example, we find that current assessments could grossly underestimate both the spatial and temporal dimensions of the societal impacts of sea level rise. The typology can be used to guide new research, assist with impact assessments, evaluate policy options, and provide more robust and holistic scenarios of sea level rise."
 
@@ -39,11 +45,8 @@ header-includes:
 - \fancyhead[CE,CO]{SLR typology}
 ---
 
-* Corresponding author. hauer@uga.edu. p: 706-542-9369.
+*Corresponding author. mehauer@fsu.edu p: 850-542-9369.
 
-^1^ Department of Sociology, Florida State University. 600 W. College Avenue Tallahassee, FL 32306.
-
-^2^ National Socio-Environmental Synthesis Center, University of Maryland College Park. 1 Park Place, Annapolis MD USA 21401.
 
 ```{r load, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
